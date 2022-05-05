@@ -1,0 +1,90 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginsignup.css">
+</head>
+
+<body>
+    <section>
+        <div class="imgBx">
+            <img width="40%"
+                src="https://images.pexels.com/photos/4067506/pexels-photo-4067506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=24f"
+                alt="img">
+        </div>
+        <div class="contentBx">
+            <div class="formBx">
+                <h2><img src="https://www.sorensoncapital.com/wp-content/uploads/2017/03/pluralsight-logo-white.png"></h2>
+                <form id="form" action="">
+                    <div class="inputBx">
+                        <span>Username</span>
+                        <input id="username" type="text">
+                    </div>
+                    <div class="inputBx">
+                        <span>Password</span>
+                        <input id="pass" type="password">
+                    </div>
+                    <div class="remember">
+                        <label for=""><input type="checkbox"> remember me</label>
+                    </div>
+                    <div class="inputBx">
+
+                        <input type="submit" value=" Sign">
+                    </div>
+                    <div class="inputBx">
+
+                        <p>Don't have an account? <a href="Signup.html">Sing up</a></p>
+                    </div>
+                </form>
+                <h3>Login with social media</h3>
+                <ul class="sci">
+                    <li><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                            alt=""></li>
+
+                   
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt=""></li>
+
+                        <li><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+                                alt=""></li>
+             </ul>
+
+
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    var signupdata = JSON.parse(localStorage.getItem("signupdata"));
+ document.querySelector("form");
+    form.addEventListener("submit",function(event){
+    event.preventDefault();
+
+    var userDataObj ={
+        username:form.username.value,
+        pass:form.pass.value
+    }
+    // userDataArr.push(userDataObj);
+    // localStorage.setItem("userdata",JSON.stringify(userDataArr)); 
+
+  
+
+        if(signupdata === null){
+            alert("please creat account")
+            window.location.href= "signup.html"
+        }
+        else if(signupdata.username === userDataObj.username && signupdata.pass === userDataObj.pass ){
+            alert("login successfully Done");
+            localStorage.setItem("logindata",JSON.stringify(signupdata))
+        }
+        else{
+            alert("wrong Password please tyr again")
+        }
+ 
+    // window.location.href="" 
+
+});
+</script>
+</html>
