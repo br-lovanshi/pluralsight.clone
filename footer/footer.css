@@ -21,7 +21,7 @@
     margin-left: 40px;
     color: white;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 13px;
     font-family: 'Poppins', sans-serif;
 }
 h3+ul, li>a{
@@ -100,6 +100,7 @@ hr{
     text-decoration: none;
     color: rgb(152, 149, 149);
     cursor: pointer;
+    font-size: 13px;
 }
 #box_1>div>a:hover{
     color: white;
@@ -130,7 +131,7 @@ hr{
 }
 #bottom-left>div{
     color: rgb(94, 94, 94);
-    font-size: 13px;
+    font-size: 12px;
 }
 #bottom-left>div+div{
     margin-top: 10px;
