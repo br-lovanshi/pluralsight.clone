@@ -1,0 +1,13 @@
+#main{
+    display: flex;
+    gap: 30px;
+    /* text-align: center; */
+    background-color: rgb(18, 15, 15);
+    color: white;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; ;
+    
+}
+/* #first{
+    width: 30%;
+    background-color: rgb(18, 15, 15);
+} */

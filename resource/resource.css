@@ -1,0 +1,161 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    *{
+
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        font-size: medium;
+        padding: 0;
+    }
+    
+    #topsec{font-family: 'Poppins', sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     }
+/* ul li{
+    display: grid;
+    line-height: 70px;
+    color: white;
+    width: 100px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 20px;
+    transition: 0.3s;
+    
+}
+ul{
+    display: block;
+} */
+
+        #container{font-family: 'Poppins', sans-serif;
+  display: flex;
+  margin: auto;
+  background-color: black;
+  margin: auto;
+  color: white;
+  gap: 130px;
+  text-align: center;
+  margin-left: 50px;
+  position: fixed;
+  margin-top: -20px;
+}
+#navbar{
+    display: grid;
+    grid-template-columns: (2,1fr);
+    grid-template-rows: auto;
+    display: flex;
+    width:95%;
+    height: 150px;
+    color:white;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+   
+}
+h4{
+    color:rgb(255, 0, 195);
+}
+#imgbox{
+    display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(1,auto);
+      gap: 20px;
+      width: 65%;
+      margin: auto;
+      
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+      
+      
+
+#upbox{
+    font-size: medium;
+    display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(1,auto);
+      gap: 20px;
+      color: white;
+      width: 90%;
+      margin: auto 
+       
+}
+#secbox{
+    display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(1,auto);
+      gap: 20px;
+      color: white;
+      width: 90%;
+      margin-top:-400px ;
+      margin-left: 40px;
+       
+}
+#thbox{
+    display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(1,auto);
+      gap: 20px;
+      color: white;
+      width: 90%;
+      margin-top:-400px ;
+      margin-left: 40px;
+       
+}
+#fourbox{
+    display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(1,auto);
+      gap: 20px;
+      color: white;
+      width: 90%;
+      margin-top:-400px ;
+      margin-left: 40px;
+       
+}
+#fivebox{
+    display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(1,auto);
+      gap: 20px;
+      color: white;
+      width: 90%;
+      margin-top:-400px ;
+      margin-left: 40px;
+       
+}
+
+
+.s{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+    width: 50%;
+    margin: auto;
+   margin-left: 50px;
+
+}
+
+
+img {  
+max-width: 100%;  
+height: auto;  
+margin-top: 400px;
+} 
+#mainimg{
+    margin-top: -10px;
+} 
+
+button{
+    height: 20px;
+    width: 100px;
+    background-color: none;
+    margin-top: 50px;
+}
+#see{
+    margin-left: 10px;
+    display: flex;
+    
+}
+
+
+
+   
