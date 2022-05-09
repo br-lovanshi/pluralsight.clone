@@ -47,21 +47,6 @@
     <p id="font"> Pluralsight is required by law to collect transaction taxes such as sales tax, VAT, GST or other similar taxes on purchases in some jurisdictions. The actual tax amount will be calculated based on the applicable jurisdictional tax rates when your order is processed.
         ✝✝ Excluding transaction taxes such as sales tax, VAT, GST and other similar taxes</p>
 </body>
-<script>
-let otp =   document.querySelector("#otp").value;
-document.querySelector("button").addEventListener("click",otpfun)
-function otpfun(){
-
-if(otp == null){
-    alert("please retry!")
-}
-else if (otp == "1234"){
-    alert("Payment Succesully done");
-    console.log("paymet Done ");
-}
-else {
-    alert("Payment Failed")
-    console.log("invelid otp");
-}} 
+<script src="otp.js">
 </script>
 </html>
