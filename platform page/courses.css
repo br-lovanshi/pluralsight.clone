@@ -1,0 +1,59 @@
+.img{
+    display:flex;
+    justify-content: space-around;
+    height:80px;
+    width:100%;
+    background-image: linear-gradient(to bottom right, rgb(163, 12, 12), rgb(187, 79, 16),rgb(86, 187, 185));
+
+}
+.p1{
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    height:400px;
+    width:100%;
+    color:aliceblue;
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png");
+}
+.p2{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(32, 21, 21);
+    height:50px;
+    color: aliceblue;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.p3{
+    background-color: rgb(28, 27, 27);
+}
+.p3>div{
+    background-color: rgb(28, 27, 27);
+    color:aliceblue;
+    padding-left: 20px;
+    height:150px;
+    margin-top: -22px;
+    font-family: 'Poppins', sans-serif;
+}
+#flex{
+    
+    display: flex;
+    gap:10px;
+}
+button{
+    height: 25px;
+    background-color: rgb(29, 171, 219);
+    border-radius: 10px;
+}
+#img2{
+    height:25px;
+   
+}
+p{
+    margin-top: 5px;
+}

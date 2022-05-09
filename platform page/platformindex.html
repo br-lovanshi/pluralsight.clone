@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="platform.css">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="body">
+        <div class="p1">
+            <ul>
+                
+                <li id="p11">WAYS  TO  UPSKILL</li>
+                
+                <li> <a href="courses.html"><img id="ab" src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/dashboard.png"  alt=""/></image>
+                    Courses</a></li>
+                <li> <img id="ab" src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/iq.png"  /></image>
+                    Skill assessments</li>
+                <li> <img id="ab" src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/cloud.png"  /></image>
+                    Hands-on Learning</li>
+                <li> <img id="ab" src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/hand.png"  /></image>
+                    Certification prep</li>
+                <li> <img id="ab" src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/live-classes-icon.svg"  /></image>
+                    Live Classes</li>
+                <li><img id="ab" src="https://www.pluralsight.com/content/dam/pluralsight2/experiment-fragment/navigation/analytics.png"  /></image>
+                    Team efficiency</li>
+            </ul>
+        </div>
+
+        <div class="q1">
+            <div class="p2">
+                    
+                    <div class="p21">
+                        <ul>
+                        <li id="p11">SKILLS FOR</li>
+                        <li>Software Development</li>
+                        <li>IT ops</li>
+                        <li>Info & cyber security</li>
+                        <li>Cloud computing</li>
+                        <li>Machine learning / AL</li>
+                        <li>Data proffessional</li>
+                        </ul>  
+                    </div>
+                    
+                    <div class="p22" >
+                    <div class="p221">
+                        <h6>TOP TRENDING PATHS</h6>
+                        <span class="material-symbols-outlined">
+                            close
+                            </span>
+                    </div>
+                    
+                    <div class="p222">
+                    <div class="p2221">
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/group-policy-administration-ee0dacafe8.png?w=75" alt=""></div>
+                        <div class="p2222"> 
+                            <h5>Microsoft Azure Deployment</h5>
+                            <p>4 courses 7 hours</p>
+                        </div>
+                    </div>
+                    <div class="p2221">
+                        <div><img  src="https://pluralsight2.imgix.net/paths/images/aws-certified-devops-engineer-25d912e3da.png?w=75" alt=""></div>
+                        <div> 
+                            <h5>AWS Operations</h5>
+                            <p>7 courses 14 hours</p>
+                            </div>
+                    </div>
+                    <div class="p2221">
+                        <div><img  src="https://pluralsight2.imgix.net/paths/images/r-programming-eb2e267a97.png?w=75" alt=""></div>
+                        <div> 
+                            <h5>Cleaning Data with R</h5>
+                            <p>5 courses 9 hours</p>
+                            </div>
+                    </div>
+                    <div class="p2221">
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/python-7be70baaac.png?w=75" alt=""></div>
+                        <div> 
+                            <h5>Core Python</h5>
+                            <p>24 courses 44 hours</p>
+                            </div>
+                    </div>
+                    <div class="p2221">
+                        <div><img src="https://pluralsight2.imgix.net/paths/images/ruby-7e88ddd5f0.png?w=75" alt=""></div>
+                        <div> 
+                            <h5>Ruby Language Fundamentals</h5>
+                            <p>7 courses 13 hours</p>
+                            </div>
+                    </div>
+                    </div>
+                    </div>      
+            </div>
+            <div>
+               <a href="courses.html"><h5 id="color">See our entire course library |</h5></a>
+            </div>
+       </div>
+       
+        
+    </div>
+    
+</body>
+</html>
+<script>
+    var data=document.querySelector("#body")
+   var x= document.querySelector(".material-symbols-outlined");
+   x.style.cursor="pointer";
+   
+
+   x.addEventListener("click",function(){
+       deleteItem(data)
+   })
+   function deleteItem(data){
+     
+    data.remove();
+     
+   }
+</script>
