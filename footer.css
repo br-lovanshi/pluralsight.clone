@@ -1,4 +1,8 @@
-/* footer */
+/* footer */ 
+*{
+    margin: 0;
+    padding: 0;
+}
 .clean{
     background-color: rgb(32, 31, 31);
 }

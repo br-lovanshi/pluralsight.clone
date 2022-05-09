@@ -36,7 +36,7 @@ ul{
   gap: 130px;
   text-align: center;
   margin-left: 50px;
-  position: fixed;
+  /* position: ; */
   margin-top: -20px;
 }
 #navbar{
