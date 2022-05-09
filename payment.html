@@ -51,22 +51,8 @@
     <p id="font"> Pluralsight is required by law to collect transaction taxes such as sales tax, VAT, GST or other similar taxes on purchases in some jurisdictions. The actual tax amount will be calculated based on the applicable jurisdictional tax rates when your order is processed.
         ✝✝ Excluding transaction taxes such as sales tax, VAT, GST and other similar taxes</p>
 </body>
-<script>
-    document.querySelector("form").addEventListener("submit",formfun);
-    function formfun(){
-        event.preventDefault()
-        
-            const paymentobj = {
-                number:form.number.value,
-                date:form.date.value,
-                cvv:form.cvv.value,
-                name:form.name.value
-
-            }
-            console.log(paymentobj);
-            localStorage.setItem("paymentData",JSON.stringify(paymentobj))
-            window.location.href="otp.html"
-    }
+<script src="payment.js">
+  
 </script>
 
 </html>
