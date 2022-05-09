@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,
+			initial-scale=1.0" />
+    <link rel="stylesheet" href="payment.css" class="css" />
+</head>
+
+<body> 
+<img src="https://www.sorensoncapital.com/wp-content/uploads/2017/03/pluralsight-logo-white.png">
+    <div class="container">
+
+
+
+
+        <form id="form" action="" class="card-details" > 
+      
+            <p>Pay using Credit or Debit card</p>
+
+            <div class="card-number">
+                <label> Card Number </label>
+                <input  id="number"    type="text" class="card" placeholder="###-###-###" />
+            </div>
+           
+            <div class="date-number">
+                <label> Expiry Date </label>
+                <input id="date" type="text" class="card" placeholder="DD-MM-YY" />
+            </div>
+
+            <div class="cvv-number">
+                <label> CVV number </label>
+                <input id="cvv" type="text" class="card" placeholder="xxx" />
+            </div>
+            <div class="nameholder-number">
+                <label> Card Holder name </label>
+                <input id="name" type="text" class="card" placeholder="Enter your Name" />
+            </div>
+            <input type="submit" value="Pay" class="submit-now-btn" >
+          
+        </form>
+    </div>  
+    <div class="copyright">
+    
+        <p>Copyright © 2004-2022 Pluralsight LLC. All rights reserved.</p>
+        <p>Terms of Use</p>
+            <p>privacy policy</p>
+    </div>
+    <p id="font"> Pluralsight is required by law to collect transaction taxes such as sales tax, VAT, GST or other similar taxes on purchases in some jurisdictions. The actual tax amount will be calculated based on the applicable jurisdictional tax rates when your order is processed.
+        ✝✝ Excluding transaction taxes such as sales tax, VAT, GST and other similar taxes</p>
+</body>
+<script>
+    document.querySelector("form").addEventListener("submit",formfun);
+    function formfun(){
+        event.preventDefault()
+        
+            const paymentobj = {
+                number:form.number.value,
+                date:form.date.value,
+                cvv:form.cvv.value,
+                name:form.name.value
+
+            }
+            console.log(paymentobj);
+            localStorage.setItem("paymentData",JSON.stringify(paymentobj))
+            window.location.href="otp.html"
+    }
+</script>
+
+</html>
