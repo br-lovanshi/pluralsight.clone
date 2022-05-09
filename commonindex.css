@@ -23,6 +23,17 @@ padding-top: 20px;
     background-color: #181818;
   position: relative;
 }
+#n2 > button{
+    background-color: #181818;
+       color:white;
+       border:1px solid white;
+       height:50%;
+       width: auto; 
+       padding: 8px;
+       font-size:10px;
+       border-radius: 9px;
+       margin-top: 20px;
+   }
    #n1{
        display:flex;
        width:60%;
