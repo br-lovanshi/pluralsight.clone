@@ -77,7 +77,8 @@
         }
         else if(signupdata.username === userDataObj.username && signupdata.pass === userDataObj.pass ){
             alert("login successfully Done");
-            localStorage.setItem("logindata",JSON.stringify(signupdata))
+            localStorage.setItem("logindata",JSON.stringify(signupdata)) 
+            window.location.href= "index.html"
         }
         else{
             alert("wrong Password please tyr again")
