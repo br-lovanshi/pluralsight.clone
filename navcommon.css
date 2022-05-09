@@ -1,0 +1,42 @@
+#navbar{
+    padding-top: 20px;
+        width:100%;
+        height:80px;
+        color:white;
+    
+        display: flex;
+        justify-content: space-between;
+        background-color: #181818;
+      position: relative;
+    }
+       #n1{
+           display:flex;
+           width:60%;
+           justify-content: space-around;
+           position:static;
+       }
+       #n2{
+           display:flex;
+     width:30%;
+      justify-content: space-around;
+      position:static;
+    
+       }
+       button{
+        background-color: #181818;
+           color:white;
+           border:1px solid white;
+           height:50%;
+           margin-top: 20px;
+       }
+      a{
+            
+        color:white;
+        text-decoration: none;
+    
+    
+       }
+       svg{
+           margin-top:30px ;
+    
+       }
