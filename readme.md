@@ -1,5 +1,5 @@
 ## PLURALSIGHT ##
-Projecr Link:https://tangerine-medovik-117187.netlify.app/
+Projecr Link:  https://tangerine-medovik-117187.netlify.app/
 
 
 
