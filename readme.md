@@ -1,5 +1,5 @@
 ## PLURALSIGHT ##
-
+Projecr Link:https://tangerine-medovik-117187.netlify.app/
 Pluralsight, Inc. is an American privately held online education company that offers a variety of video training courses for software developers, IT administrators, and creative professionals through its website.
 
 Founded in 2004 by Aaron Skonnard, Keith Brown, Fritz Onion, and Bill Williams,the company has its headquarters in Farmington, Utah. As of July 2018, it uses more than 1,400 subject-matter experts as authors, and offers more than 7,000 courses in its catalog.
