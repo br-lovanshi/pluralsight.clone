@@ -13,33 +13,43 @@ including the Mazama Wares collection of handcrafted glassware etc.
 - Cart page with adding and removing items.
 - Product page with sorting feature.
 - Payment page with total amount.
+
+## Login Page
+
+![App Screenshot](./assets/Screenshot%20(1623).png)
+
 ## Homepage
 
-![App Screenshot](https://i.postimg.cc/RhVQWt8q/tanner.png)
+![App Screenshot](./assets/Screenshot%20(1624).png)
+## Courses
 
-## Product page
+![App Screenshot](./assets/Screenshot%20(1626).png)
 
-![App Screenshot](https://i.postimg.cc/RSbcdWj1/Screenshot-327.png)
 
-## Cart page
+## Learn
 
-![App Screenshot](https://i.postimg.cc/nr4WYX76/Screenshot-328.png)
+![App Screenshot](./assets/Screenshot%20(1625).png)
 
-## Checkout page
 
-![App Screenshot](https://i.postimg.cc/q7s5n8mG/Screenshot-329.png)
 
+## Platform
+
+![App Screenshot](./assets/Screenshot%20(1628).png)
+
+## Article
+
+![App Screenshot](./assets/Screenshot%20(1629).png)
+
+
+
+## Footer Page
+
+![App Screenshot](./assets/Screenshot%20(1627).png)
 ## Deployment
 
 To deploy this project run
 
-```bash
-  npm install
-```
-
-```bash
-  npm run start
-```
+``
 
 
 ## Support
