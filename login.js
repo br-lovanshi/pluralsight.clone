@@ -13,7 +13,7 @@ document.querySelector("form");
  
 
        if(signupdata === null){
-           alert("please creat account")
+           alert("please create account")
            window.location.href= "signup.html"
        }
        else if(signupdata.username === userDataObj.username && signupdata.pass === userDataObj.pass ){
